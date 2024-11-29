@@ -1,12 +1,4 @@
 // constants.js
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-// Convert the module URL to a file path
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-export const SESSION_DIR = path.resolve(__dirname, '../.mm');
-export const SESSION_FILE = path.join(SESSION_DIR, "mm_session.json");
 
 export const ENV_TOKEN_KEY = "MONARCH_TOKEN"
 export const AUTH_HEADER_KEY = "Authorization";
